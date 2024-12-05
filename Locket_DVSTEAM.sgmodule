@@ -1,0 +1,13 @@
+#!url=
+#!name=vugiabao
+#!desc=locket gold
+
+[Script]
+# ~ By Vu Gia Bao
+# ～ Egern transfer to Shadowrocket & Surge & LanceX
+revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://api.dvsteam.vn/Locket_Gold/Shadowrocket/js/Locket_DVSTEAM.js, requires-body=true, max-size=-1, timeout=60
+
+deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://api.dvsteam.vn/Locket_Gold/Shadowrocket/js/setHeader.js, timeout=60
+
+[MITM]
+hostname = %APPEND% api.revenuecat.com
