@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>items</key>
+  <array>
+    <dict>
+      <key>assets</key>
+      <array>
+        <dict>
+          <key>kind</key>
+          <string>software-package</string>
+          <key>url</key>
+          <string>https://dl.dropboxusercontent.com//scl/fi/1ncmjtwmnvu8jjfv8xgz3/locket.ipa?rlkey=6ycznxohp9q234iigjso3yd66&st=vuc2uqn4&dl=0</string>
+        </dict>
+        <dict>
+          <key>kind</key>
+          <string>display-image</string>
+          <key>needs-shine</key>
+          <true/>
+          <key>url</key>
+          <string>https://raw.githubusercontent.com/VuGiaBao1337/lkg/refs/heads/main/unnamed_imresizer.jpg</string>
+        </dict>
+        <dict>
+          <key>kind</key>
+          <string>full-size-image</string>
+          <key>needs-shine</key>
+          <true/>
+          <key>url</key>
+          <string>https://raw.githubusercontent.com/VuGiaBao1337/lkg/refs/heads/main/unnamed_imresizer.jpg</string>
+        </dict>
+      </array>
+      <key>metadata</key>
+      <dict>
+        <key>bundle-identifier</key>
+        <string>com.locket.Locket</string>
+        <key>bundle-version</key>
+        <string>2.8.0</string>
+        <key>kind</key>
+        <string>software</string>
+        <key>title</key>
+        <string>Locket Gold by Vu Gia Bao</string>
+      </dict>
+    </dict>
+  </array>
+</dict>
+</plist>
